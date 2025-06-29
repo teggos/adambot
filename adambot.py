@@ -52,5 +52,5 @@ def chat_with_adam():
   return jsonify({"response": str(response.text)})
 
 
-if __name__ == "adambot":
+if __name__ == "__main__":
   app.run(host="0.0.0.0", port=3000)
